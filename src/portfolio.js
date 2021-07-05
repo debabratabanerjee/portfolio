@@ -328,7 +328,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,9 +339,10 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv","https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv","https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
-    "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv","https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
-  ],
+    "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv" 
+  ,"https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
+  "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
+  "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv"],
   display: true // Set false to hide this section, defaults to true
 };
 

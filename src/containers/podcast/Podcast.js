@@ -5,6 +5,10 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
+
+  const podcastPerPage = 3;
+  let arrayForHoldingPodcasts = [];
+
   const {isDark} = useContext(StyleContext);
   if (!podcastSection.display) {
     return null;
