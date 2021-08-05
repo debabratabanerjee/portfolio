@@ -1,6 +1,7 @@
 {
-  "short_name": "Saad Pasta Portfolio",
-  "name": "Saad Pasta Portfolio",
+  "short_name": "Debabrata Banerjee Portfolio",
+  "name": "Debabrata Banerjee Portfolio",
+  "desc":"A simple porfolio of me Made with react.",
   "icons": [
     {
       "src": "/favicon.ico",

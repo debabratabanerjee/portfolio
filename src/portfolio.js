@@ -81,10 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -122,20 +119,20 @@ const educationInfo = {
       schoolName: "University of Engineering and Management",
       logo: require("./assets/images/UEM_logo.webp"),
       subHeader: "Bacherlor of Technology in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "May 2018 - April 2022",
+      desc: "Back bone to my technological interests and education",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participated in Hackathon",
+        "Contributed in Open-source projects"
       ]
     },
     {
-      schoolName: "University of Enginnering & Management",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Guru Teg Public School",
+      logo: require("./assets/images/guruteg.jpg"),
+      subHeader: "Higher Secondary",
+      duration: "March 2016 - April 2018",
+      //desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -146,7 +143,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend/Design ", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -154,7 +151,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programming (Data Structure and Algo)",
       progressPercentage: "60%"
     }
   ],
@@ -167,30 +164,45 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Founder and CEO",
+      company: "SlideWay",
+      companylogo: require("./assets/images/Slied Way logo.png"),
+      date: "June 2020 – Present",
+      desc: "Slideway is a platform for IT services, consulting & business solutions with innovation & delivery centers. We are alwaus devloping Ourselves",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Development(Web, Android)",
+        "Desgin(static and motion)"
+      ],
+      url: "https://slideway.dev/",
+      
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer/Graphic Desginer",
+      company: "Kita",
+      companylogo: require("./assets/images/Flamingo Logo.png"),
+      date: "May 2020 - Ongoing",
+      desc: "KITA - School Of Foreign Language is Kolkata's first comprehensive foreign language learning institute for children aged 3-18 to strengthen their reading, writing, vocabulary and conversational skills",
+      descBullets: [
+        "Free Library",
+        "Book Store",
+        "E-learning"
+      ],
+      url: "https://kitaofficial.com/"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Web Developer",
+      company: "Diflin Tech",
+      companylogo: require("./assets/images/diflin.jfif"),
+      date: "June 2020 – Present",
+      desc: "Slideway is a platform for IT services, consulting & business solutions with innovation & delivery centers",
+      descBullets: [
+        
+      ],
+      url: "https://diflin.in/"
+    },
+    
+    
+    
   ]
 };
 
@@ -209,28 +221,18 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/UEM_logo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/writtendesk.png"),
+      projectName: "Writtendesk",
+      projectDesc: "A simple featured blogging app to get connected with others",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://writtendesk.slideway.dev"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -290,7 +292,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -309,7 +311,7 @@ const blogSection = {
     },
     
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +345,7 @@ const podcastSection = {
   ,"https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
   "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv",
   "https://anchor.fm/debabrata-banerjee2/embed/episodes/Trial-OF-Anchor-Fm-e12u9pv"],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {

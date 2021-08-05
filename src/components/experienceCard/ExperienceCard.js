@@ -78,6 +78,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        <a  target="_blank" href={cardInfo.url}>{cardInfo.url}</a>
       </div>
     </div>
   );
