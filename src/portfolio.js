@@ -194,7 +194,7 @@ const workExperiences = {
       company: "Diflin Tech",
       companylogo: require("./assets/images/diflin.jfif"),
       date: "June 2020 – Present",
-      desc: "Slideway is a platform for IT services, consulting & business solutions with innovation & delivery centers",
+      desc: "Diflin is an online based Software Company which provides best, unique and affordable Digital Services for it's clients.",
       descBullets: [
         
       ],
